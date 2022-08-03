@@ -23,6 +23,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  background: linear-gradient(180deg, #ffc0cb, #f4c0ff);
 }
 
 p {
@@ -46,16 +47,21 @@ img {
 
 .counter-div{
   width: 40rem;
-  border: 1px solid gray;
+  border: 1px solid black;
   padding: 1rem;
-  background-color: var(--light-blue);
+  background-color: rgba(82, 170, 214, 0.6);
   color: var(--white);
   text-align: center;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .counter-div > * {
   margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+h1{
+  font-size: 3.5rem;
 }
 
 .count{
@@ -75,7 +81,7 @@ img {
 }
 
 button.subtract{
-  background-color: orangered;
+  background-color: red;
 }
 button.reset{
   background-color: white;

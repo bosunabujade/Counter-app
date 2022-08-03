@@ -19,9 +19,9 @@ buttons.addEventListener("click", (e) => {
 
 function setColor() {
     if (count.innerHTML > 0) {
-        count.style.color = "yellow";
+        count.style.color = "green";
     } else if (count.innerHTML < 0) {
-        count.style.color = "orangered";
+        count.style.color = "red";
     } else { 
         count.style.color = "white";
     }
